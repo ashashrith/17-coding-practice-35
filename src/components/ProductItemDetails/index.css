@@ -1,1 +1,35 @@
 /* Write your CSS here */
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.img {
+  height: 40vh;
+  width: 30vh;
+  background-size: cover;
+}
